@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import WindowWidth from './WindowWidth';
 import reportWebVitals from './reportWebVitals';
-
+import Header from './parcials/Header';
+import Footer from './parcials/Footer';
+import Home from './pages/Home';
+     
+import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './pages/About';
+import Projects from './pages/Projects';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 
