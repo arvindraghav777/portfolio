@@ -17,15 +17,13 @@
             "polyfills": [
               "zone.js"
             ],
+			"styles": ["src/global_styles.css"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
                 "glob": "**/*",
                 "input": "public"
               }
-            ],
-            "styles": [
-              "src/styles.css"
             ]
           },
           "configurations": {

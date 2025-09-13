@@ -1,0 +1,6 @@
+projectKey=merntest
+serverUrl=http://localhost:9000
+serverVersion=25.9.0.112764
+dashboardUrl=http://localhost:9000/dashboard?id=merntest
+ceTaskId=df73c792-c355-44a7-9f14-8cff4664ff68
+ceTaskUrl=http://localhost:9000/api/ce/task?id=df73c792-c355-44a7-9f14-8cff4664ff68
